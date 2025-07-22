@@ -12,7 +12,6 @@ charset-normalizer==3.3.2
 click==8.2.1
 colorama==0.4.6
 comm==0.2.2
-comtypes==1.4.7
 debugpy==1.8.5
 decorator==5.1.1
 executing==2.0.1
@@ -47,13 +46,9 @@ psutil==6.0.0
 pure_eval==0.2.3
 pycparser==2.22
 Pygments==2.18.0
-pypiwin32==223
 PySocks==1.7.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.1
-pyttsx3==2.97
-pywin32==306
-pyzmq==26.1.1
 requests==2.32.3
 selenium==4.34.2
 six==1.16.0
