@@ -211,3 +211,9 @@ async def get_stats():
 
     return jsonify({"platforms": platform_stats, "totalSolved": total_solved})
 
+
+
+# --- HEALTH CHECK ROUTE FOR UPTIMEROBOT ---
+@app.route('/')
+def home():
+    return jsonify({"status": "Backend is running"}), 200
